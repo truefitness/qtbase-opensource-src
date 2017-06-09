@@ -1,3 +1,10 @@
+qtbase-opensource-src (5.7.1+dfsg-2ubuntu4~1true1~1) UNRELEASED; urgency=medium
+
+  * Use true-qt5-bin-install to bootstrap build
+  * Don't build examples
+
+ -- Robert Hedges <rhedges@truefitness.com>  Fri, 09 Jun 2017 13:39:59 -0500
+
 qtbase-opensource-src (5.7.1+dfsg-2ubuntu4~1) zesty; urgency=medium
 
   [ Marco Trevisan (Treviño) ]

@@ -102,6 +102,11 @@ else
 	NUMJOBS = 1
 endif
 
+#Truefitness
+# Don't build examples to speed up build
+#
+extra_configure_opts += -no-compile-examples
+
 %:
 	dh $@ --parallel --with pkgkde_symbolshelper
 
