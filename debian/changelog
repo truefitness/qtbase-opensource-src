@@ -1,7 +1,8 @@
-qtbase-opensource-src (5.7.1+dfsg-2ubuntu4~1true1~1) UNRELEASED; urgency=medium
+qtbase-opensource-src (5.7.1+dfsg-2ubuntu4~1true1~2) UNRELEASED; urgency=medium
 
   * Use true-qt5-bin-install to bootstrap build
   * Don't build examples
+  * Trey to limit the number of parallel jobs
 
  -- Robert Hedges <rhedges@truefitness.com>  Fri, 09 Jun 2017 13:39:59 -0500
 
