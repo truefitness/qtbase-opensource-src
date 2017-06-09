@@ -75,7 +75,7 @@ endif
 testrun_architectures := amd64 armhf i386
 
 nogoldlinker_architectures := powerpc armhf amd64 ppc64el arm64
-
+git@github.com:truefitness/qtbase-opensource-src.git
 ifeq ($(DEB_HOST_ARCH),$(findstring $(DEB_HOST_ARCH), $(nogoldlinker_architectures)))
 	extra_configure_opts += -no-use-gold-linker
 endif
@@ -189,7 +189,6 @@ endif
 	            -glib \
 	            -icu \
 	            -accessibility \
-	            -compile-examples \
 	            -no-directfb \
 	            -gstreamer 1.0 \
 	            $(extra_configure_opts) \
